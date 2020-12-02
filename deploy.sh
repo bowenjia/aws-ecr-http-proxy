@@ -10,4 +10,4 @@ for index in "${IMAGE_VERSION[@]}";
     echo $index;
   done    
         
-docker tag nginx:latest 515539806848.dkr.ecr.ap-southeast-2.amazonaws.com/nginx:latest
+docker tag nginx:latest 072263453500.dkr.ecr.ap-southeast-2.amazonaws.com/nginx:latest
