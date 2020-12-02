@@ -11,9 +11,9 @@ phases:
       #nginx image
       - echo Build started on `date`
       - echo Building the Docker image...          
-      - docker build -t nginx:latest . -f nginx-ecr-proxy/Dockerfile
+      - docker build -t nginx:latest . -f Dockerfile
       
   post_build:
     commands:
       - echo Pushing the Docker nginx image...
-      - bash nginx-ecr-proxy/deploy.sh     
+      - bash deploy.sh     
